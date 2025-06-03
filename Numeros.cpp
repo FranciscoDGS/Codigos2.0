@@ -3,11 +3,12 @@
 using namespace std;
 
 int main() {
-    int numeros[10];
-    int i, j, temp;
+    float numeros[10];
+    int i, j;
+    float temp;
 
-    // Captura de los 10 números
-    cout << "Ingresa 10 numeros:" << endl;
+    // Captura de los 10 números (pueden ser decimales y negativos)
+    cout << "Ingresa 10 numeros (pueden ser decimales y negativos):" << endl;
     for (i = 0; i < 10; i++) {
         cout << "Numero " << i + 1 << ": ";
         cin >> numeros[i];
